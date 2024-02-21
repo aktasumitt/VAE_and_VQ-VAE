@@ -5,7 +5,7 @@ In this project, I aimed to train a Vector Quantized Variational Autoencoder (VQ
 
 ## Dataset:
 - I used the Cifar10 and Mnist datasets for this project, which consists of 10 labels with total 60k images on train and 10k images on test.
-- size of images are (32x32x3) in Cifar and (28x28x3) in Mnist
+- size of images are (32x32x3) in Cifar and (28x28x1) in Mnist
 
 ## Model:
 - To understand the VQ-VAE and VAE model, we first need to understand Autoencoders (AE) model.
@@ -44,7 +44,7 @@ In this project, I aimed to train a Vector Quantized Variational Autoencoder (VQ
 -  The model is trained to minimize these losses.
 
 ## Results and Usage:
-- At the end of 20 epochs, images very close to real images were obtained.
+- At the end of training, images are close to real images were obtained.
 - Since they are not very comprehensive models, or rather, because they provide ideas and foundations for larger models, instead of deploying them separately with larger models, I have uploaded them as two Jupyter files.
 -  You can directly run them all to train and use them. The training will take a short time.
 -  They will save in relative directory
