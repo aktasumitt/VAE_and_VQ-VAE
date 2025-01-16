@@ -1,2 +1,2 @@
-- I use the 128x128 images like the artickle
+- As stated in the article, we used 128x128 resolution images.
 - You can download dataset from this : https://www.kaggle.com/datasets/rhtsingh/google-universal-image-embeddings-128x128/data
